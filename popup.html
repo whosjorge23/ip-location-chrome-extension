@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IP Location</title>
+    <style>
+      body {
+        width: 300px;
+        height: 100px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        text-align: center;
+      }
+      #ip-address {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      #location {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ip-address">Loading...</div>
+    <div id="location"></div>
+    <script src="popup.js"></script>
+    <script>
+  chrome.browserAction.setBadgeBackgroundColor({color: [0, 0, 0, 0]});
+</script>
+  </body>
+</html>

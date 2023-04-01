@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "IP Location",
+  "version": "1.0",
+  "author": {
+    "name": "Giorgio Giannotta",
+    "email": "jorge_upa@msn.com",
+    "url": "http://www.westcostyle.com"
+  },
+  "description": "Displays your IP address and location",
+  "permissions": ["https://api.ipify.org/", "https://ipapi.co/"],
+  "browser_action": {
+    "default_title": "IP Location",
+    "default_popup": "popup.html"
+  }
+}
